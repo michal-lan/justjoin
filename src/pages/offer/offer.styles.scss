@@ -1,0 +1,64 @@
+.offer-page {
+    margin: 10px;
+    text-align: center;
+    padding: 5px 15px;
+
+    .backToHome {
+        font-size: 14px;
+        border-bottom: 1px solid #333;
+        text-transform: uppercase;
+        margin-bottom: 20px;
+        display: inline-block;
+    }
+
+    .offer-header {
+        box-shadow: 2px 1px 5px #d1d1d1;
+        background: #fff;
+        padding: 15px 10px;
+        margin: 10px;
+        
+        .company-logo-container {
+            .company-logo {
+                max-height: 40px;
+                max-width: 85px;
+                margin: 15px;
+            }
+        }
+    
+        .details {
+            .price {
+                color: lightseagreen;
+            }
+    
+            b {
+                color: #333;
+            }
+    
+            p {
+                margin: 10px;
+            }
+        }
+    }
+
+    .more-info-boxes {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li {
+            box-shadow: 2px 1px 5px #d1d1d1;
+            background: #fff;
+            padding: 15px 10px;
+            margin: 10px;
+            width: 15%;
+            display: inline-block;
+
+            p {
+                margin: 0;
+                margin-bottom: 10px;
+                font-weight: 500;
+                color: lightseagreen;
+            }
+        }
+    }
+}

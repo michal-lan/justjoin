@@ -1,0 +1,49 @@
+.offer {
+    box-shadow: 2px 1px 5px #d1d1d1;
+    background: #fff;
+    margin: 10px;
+    text-align: left;
+    max-height: 76px;
+
+    &:hover {
+        background: #f3f3f3;
+    }
+
+    a {
+        display: block;
+        margin: 0;
+        padding: 5px 15px;
+
+        .company-logo-container {
+            display: inline-block;
+            width: 100px;
+            text-align: center;
+
+            .company-logo {
+                max-height: 40px;
+                max-width: 85px;
+                margin: 15px;
+            }
+        }
+
+        .details {
+            display: inline-block;
+            vertical-align: top;
+            padding-left: 30px;
+            width: calc(100% - 100px);
+
+            .price {
+                float: right;
+                color: lightseagreen;
+            }
+
+            b {
+                color: #333;
+            }
+
+            p {
+                margin: 10px;
+            }
+        }
+    }
+}
