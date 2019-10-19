@@ -1,0 +1,18 @@
+.offers-list {
+    height: 50vw;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    text-align: center;
+
+    .loading-info, .empty-offers {
+        margin: 10px;
+        color: #333;
+    }
+
+    .list {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+}

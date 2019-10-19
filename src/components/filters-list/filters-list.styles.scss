@@ -1,0 +1,31 @@
+.filters-list {
+    .button {
+        padding: 5px 10px;
+        margin: 10px;
+        font-weight: 500;
+        border: none;
+        border-radius: 5px;
+        background: lightsalmon;
+        color: #fff;
+        text-shadow: 1px 1px #999;
+        outline: none;
+
+        &:nth-child(2) {
+            background: lightskyblue;
+        }
+
+        &:nth-child(3) {
+            background: lightgreen;
+        }
+
+        &:nth-child(4) {
+            background: lightslategrey;
+        }
+        
+        &:hover, &.active {
+            cursor: pointer;
+            background: #999;
+            box-shadow: 5px 5px 2px #ddd;
+        }
+    }
+}
